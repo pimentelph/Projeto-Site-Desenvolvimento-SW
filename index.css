@@ -1,11 +1,12 @@
 /*Cabeçalho da página*/
 
-*{
+/*Isso vai pra todos do header*/
+* {
     margin: 0%;
     padding: 0%;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,40 +14,55 @@ header{
     overflow: visible;
 }
 
-h1{
+h1 {
 
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
     color: #FAC900;
     padding: 14px 50px;
 }
+
 /*Estilização geral dos botões*/
 .topnav {
     display: flex;
     background-color: #333;
-    overflow:visible;
+    overflow: visible;
     font-family: 'Raleway', sans-serif;
-  }
-  
-  /*Espaçamento entre blocos, texto*/
-  .topnav a {
+}
+
+/*Espaçamento entre blocos, texto*/
+.topnav a {
     float: left;
     color: #ffffff;
     text-align: center;
     padding: 14px 50px;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 17px;
-  }
-  
-  /*Estilização de quando passa o mouse*/
-  .topnav a:hover {
+}
+
+/*Estilização de quando passa o mouse*/
+.topnav a:hover {
     background-color: #a1a1a1;
     color: rgb(255, 255, 255);
     border-radius: 15px;
-  }
+    border-color: #ffffff;
+}
 
-  #pedro{
+/*Agora é o main da página*/
+
+/*Imagem no canto direito do home*/
+#pedro {
     border-radius: 30px;
-    float:right ;
+    float: right;
     width: 750px;
-  }
+}
+
+/*Textos das páginas*/
+#ola {
+    font-weight: lighter;
+}
+
+#nometodo {
+    font-size: 50px;
+    font-weight: bold;
+}
